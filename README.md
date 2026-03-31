@@ -45,38 +45,7 @@ The predictive engine behind PolyBiodeg is the result of advanced deep learning 
 * **Standard Methods:** OECD 301B Guidelines for Testing of Chemicals.
 * **Transfer Learning in Chemistry:** [Transfer Learning for Molecular Property Prediction](https://pubs.acs.org/doi/10.1021/acs.jcim.0c00375)
 
-### 🧑‍💻 Developer
-This application was developed by **Sunil Kumar Panda** as part of a Master’s thesis at the **Chair of Materials Informatics, University of Bayreuth, Germany**. The work explores the intersection of Deep Neural Networks and Transfer Learning to solve critical challenges in polymer informatics.
-
-
-
-<!-- ## 🛠️ Local Installation & Setup
-
-For local development or testing. (If you have a live Coolify link, mention it prominently at the top).
-
-1.  **Clone the Repository**
-    ```bash
-    git clone [https://github.com/kuennethgroup/polytoxiq2.git](https://github.com/sunilpanda14/PolyToxiQ_V2.git)
-    cd PolyToxiQ
-    ```
-2.  **Create a Virtual Environment** (Recommended)
-    ```bash
-    python -m venv venv
-    source venv/bin/activate
-    ```
-3.  **Install Dependencies**
-    ```bash
-    pip install -r requirements.txt
-    # Note: RDKit may require specific installation steps outside of pip in some environments.
-    ```
-4.  **Run the App**
-    ```bash
-    streamlit run PolytoxiQ.py
-    ```
-    The application will open in your default web browser. -->
-
 ---
-
 
 
  
