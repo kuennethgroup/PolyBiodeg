@@ -1,0 +1,81 @@
+Substance Name,psmiles,Guideline,Time_day,Biodegradation
+Polyethylene glycol,*CCO*,OECD 301B,7,0.240
+Polyethylene glycol,*CCO*,OECD 301B,9,0.560
+Polyethylene glycol,*CCO*,OECD 301B,11,0.610
+Polyethylene glycol,*CCO*,OECD 301B,14,0.650
+Polyethylene glycol,*CCO*,OECD 301B,17,0.690
+Polyethylene glycol,*CCO*,OECD 301B,18,0.690
+Polyethylene glycol,*CCO*,OECD 301B,20,0.750
+Polyethylene glycol,*CCO*,OECD 301B,21,0.769
+Polyethylene glycol,*CCO*,OECD 301B,24,0.820
+Polyethylene glycol,*CCO*,OECD 301B,25,0.860
+Polyethylene glycol,*CCO*,OECD 301B,26,0.880
+Polyethylene glycol,*CCO*,OECD 301B,28,0.910
+Polypropylene glycol,*CC(C)O*,OECD 301B,28,0.950
+Polypropylene glycol,*CC(C)O*,OECD 301B,21,0.870
+Poly(methyl methacrylate),*CC(C)(C(=O)OC)*,OECD 301B,21,0.850
+Poly(acrylamide),*CC(C(N)=O)*,OECD 301B,28,0.874
+Polyacrylic acid,*CC(C(=O)O)*,OECD 301B,5,0.100
+Polyacrylic acid,*CC(C(=O)O)*,OECD 301B,8,0.230
+Polyacrylic acid,*CC(C(=O)O)*,OECD 301B,11,0.490
+Polyacrylic acid,*CC(C(=O)O)*,OECD 301B,14,0.570
+Polyacrylic acid,*CC(C(=O)O)*,OECD 301B,15,0.659
+Polyacrylic acid,*CC(C(=O)O)*,OECD 301B,16,0.698
+Polyacrylic acid,*CC(C(=O)O)*,OECD 301B,18,0.780
+Polyacrylic acid,*CC(C(=O)O)*,OECD 301B,21,0.810
+Polyacrylic acid,*CC(C(=O)O)*,OECD 301B,24,0.870
+Polyacrylic acid,*CC(C(=O)O)*,OECD 301B,28,0.960
+Polyacrylic acid,*CC(C(=O)O)*,OECD 301B,28,0.940
+Poly(sodium ?-hydroxy acrylate),*CC(O)(C(O)=O)*,OECD 301B,5,0.141
+Polyamine,*NCC*.*OCC*,OECD 301B,1,0.020
+Poly(vinyl alcohol),*CC(O)*,OECD 301B,2,0.090
+Polyethylene glycol,*CCO*,OECD 301B,6,0.050
+Polypropylene glycol,*CC(C)O*,OECD 301B,7,0.100
+Polypropylene glycol,*CC(C)O*,OECD 301B,14,0.780
+Polypropylene glycol,*CC(C)O*,OECD 301B,25,0.760
+Polypropylene glycol,*CC(C)O*,OECD 301B,28,0.980
+Polyethylene glycol,*CCO*,OECD 301B,14,0.820
+Polyethylene glycol,*CCO*,OECD 301B,28,0.970
+Chitosan,*OC1C(CO)OC(C(N)C1(O))*,OECD 301B,28,0.850
+Poly(propylene carbonate),*CC(C)OC(=O)O*,OECD 301B,7,0.015
+Poly(3-hydroxybutyrate-co-3-hydroxyhexanoate),*C(C)CC(=O)O*.*C(CC)CC(=O)O*,OECD 301B,5,0.050
+Poly(3-hydroxybutyrate-co-3-hydroxyhexanoate),*C(C)CC(=O)O*.*C(CCC)CC(=O)O*,OECD 301B,7,0.059
+Poly(3-hydroxybutyrate-co-3-hydroxyhexanoate),*C(C)CC(=O)O*.*C(CC)CC(=O)O*,OECD 301B,21,0.575
+Poly(3-hydroxybutyrate-co-3-hydroxyhexanoate),*C(C)CC(=O)O*.*C(CC)CC(=O)O*,OECD 301B,10,0.600
+Poly(aspartic acid),*NC(=O)CC(C(=O)O)*,OECD 301B,2,0.057
+Poly(aspartic acid),*NC(=O)CC(C(=O)O)*,OECD 301B,3,0.114
+Poly(aspartic acid),*NC(=O)CC(C(=O)O)*,OECD 301B,5,0.131
+Poly(aspartic acid),*NC(=O)CC(C(=O)O)*,OECD 301B,7,0.160
+Poly(aspartic acid),*NC(=O)CC(C(=O)O)*,OECD 301B,14,0.727
+Poly(aspartic acid),*NC(=O)CC(C(=O)O)*,OECD 301B,21,0.841
+Poly(aspartic acid),*NC(=O)CC(C(=O)O)*,OECD 301B,28,0.970
+Polyacrylic acid,*CC(C(=O)O)*,OECD 301B,1,0.000
+Polyacrylic acid,*CC(C(=O)O)*,OECD 301B,2,0.033
+Polyacrylic acid,*CC(C(=O)O)*,OECD 301B,4,0.090
+Polyacrylic acid,*CC(C(=O)O)*,OECD 301B,7,0.225
+Polyacrylic acid,*CC(C(=O)O)*,OECD 301B,12,0.600
+Polyacrylic acid,*CC(C(=O)O)*,OECD 301B,14,0.740
+Polyacrylic acid,*CC(C(=O)O)*,OECD 301B,18,0.780
+Polyacrylic acid,*CC(C(=O)O)*,OECD 301B,23,0.866
+Polyacrylic acid,*CC(C(=O)O)*,OECD 301B,21,0.816
+Polyacrylic acid,*CC(C(=O)O)*,OECD 301B,22,0.840
+Polyacrylic acid,*CC(C(=O)O)*,OECD 301B,28,0.970
+Poly(vinyl alcohol),*CC(O)*,OECD 301B,12,0.540
+Poly(vinyl alcohol),*CC(O)*,OECD 301B,18,0.884
+Poly(vinyl alcohol),*CC(O)*,OECD 301B,21,0.890
+Polyethylene glycol,*CCO*,OECD 301B,14,0.430
+Polyethylene glycol,*CCO*,OECD 301B,18,0.623
+Polyethylene glycol,*CCO*,OECD 301B,21,0.720
+Starch,*OC1C(O)OC(C(O)C1(O))*,OECD 301B,5,0.181
+Pullulan,*CC1OC(C(O)C(O)C1O)COCC2C(O)C(O)C(C(O)C2CO)COCC3C(O)C(O)C(C(O)C3CO)O*,OECD 301B,7,0.498
+Curdlan,*OC1C(O)C(CO)OC(C1(O))*,OECD 301B,11,0.715
+Poly(butylene succinate),*CCCCOC(=O)CCC(=O)O*,OECD 301B,5,0.050
+Polyethylene adipate,*CCOC(=O)CCCCC(=O)O*,OECD 301B,28,0.910
+Polyacrylic acid,*CC(C(=O)O)*,OECD 301B,11,0.526
+P-AA/MA,*CC(C(=O)O)*.*C(C(=O)O)C(C(=O)O)*,OECD 301B,1,0.040
+P-AA/MA,*CC(C(=O)O)*.*C(C(=O)O)C(C(=O)O)*,OECD 301B,28,0.970
+Cellulose,*OC1C(O)C(O)C(OC1(CO))*,OECD 301B,11,0.535
+Poly(butylene succinate),*CCCCOC(=O)CCC(=O)O*,OECD 301B,11,0.380
+Polyamide 6,*CCCCCC(=O)N*,OECD 301B,28,0.990
+Polycaprolactone,*CCCCCC(=O)O*,OECD 301B,5,0.039
+Polyamide 4,*CCCC(=O)N*,OECD 301B,14,0.788

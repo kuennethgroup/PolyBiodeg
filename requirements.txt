@@ -1,0 +1,10 @@
+streamlit>=1.37.0
+torch
+sentence-transformers==2.7.0
+plotly>=5.22.0
+numpy>=1.26.0
+pandas
+scikit-learn>=1.5.0
+rdkit-pypi
+streamlit-ketcher
+psmiles @ git+https://github.com/kuennethgroup/psmiles
