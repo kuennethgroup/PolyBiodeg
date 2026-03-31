@@ -1,4 +1,4 @@
-# PolyBiodeg 🧬 : A Polymer Biodegradability Prediction Simulator
+# PolyBiodeg 🧬 : A Polymer Biodegradability Prediction Webapp
 
 ## 🔍 About the Project
 
