@@ -10,7 +10,7 @@ POL_DATA_PATH = os.path.join(DATA_DIR, "POL_DNN_data.csv")
 
 # Model paths
 MODEL_DIR = os.path.join(BASE_DIR, "models")
-POLYMER_MODEL_PATH = os.path.join(MODEL_DIR, "Final_Polymer_Transfer_Model.pt")
+POLYMER_MODEL_PATH = os.path.join(MODEL_DIR, "final_frozen_transfer_model.pt")
 
 def get_mol_data():
     return MOL_DATA_PATH
