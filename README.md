@@ -1,4 +1,4 @@
-# PolyBiodeg 🧬 : A Polymer Biodegradability Prediction Webapp
+# PolyBiodeg : A Polymer Biodegradability Prediction Webapp
 
 ## 🔍 About the Project
 
@@ -98,6 +98,94 @@ If you have Docker installed, you do not need to install Python or any dependenc
    ```bash
    streamlit run PolyBiodeg.py
 
+# 🧪 Polymer Biodegradation Prediction using DNN + Transfer Learning
+
+This project implements a **three-stage transfer learning pipeline** to predict polymer biodegradation using knowledge learned from small organic molecules.
+
+---
+
+## ⚙️ 1. Data Preprocessing & Input Engineering
+
+- **Molecular Fingerprints (600D):**
+  - Polymer repeat units converted into fingerprint vectors (RDKit / custom encoding).
+  
+- **Time Feature (1D):**
+  - Biodegradation is time-dependent → added `Days` as input.
+
+- **Final Input:**
+
+- **Noble Split (Critical):**
+- 80% → Training + CV (64 polymers)
+- 20% → Noble Test Set (16 polymers, completely unseen)
+
+---
+
+## 🚀 2. Training Approaches
+
+### 🔹 Approach 1: Zero-Shot Learning
+**Concept:** Direct transfer without training
+
+- Load pre-trained molecular DNN (~1700 molecules)
+- No weight updates
+- Evaluate directly on polymer data
+
+
+### 🔹 Approach 2: Full Fine-Tuning
+**Concept:** Total adaptation to polymer domain
+
+- Initialize with molecular weights
+- Unfreeze ALL layers
+- Optuna (1000 trials) for hyperparameter tuning
+- 5-Fold Cross Validation
+
+---
+
+### 🔹 Approach 3: Frozen-Layer Few-Shot Learning (Best)
+**Concept:** Preserve chemistry + adapt to polymers
+
+- Freeze early layers (feature extraction)
+- Train only deeper layers
+- Low learning rate (~1e-4)
+
+---
+
+## 📊 3. Evaluation Strategy
+
+### 🔹 Internal Validation (5-Fold CV)
+- Metrics:
+- R²
+- RMSE
+- MAE
+- Mean ± Std ensures stability
+
+---
+
+### 🔹 External Validation (Noble Test Set)
+- 16 completely unseen polymers
+- True real-world performance
+
+---
+
+### 🔹 Kinetic Validation
+- Generated 28-day biodegradation curves
+- Checked for:
+- Sigmoid shape
+- OECD 60% threshold crossing
+
+---
+
+## 📁 Project Structure
+AM2_Poly_biodegradability_Cluster/
+│
+├── Data/
+├── Data_preprocessing_mol/
+├── Data_preprocessing_polymer/
+├── DNN_Models/
+│ ├── Mol_DNN_Model/
+│ ├── Polymeronly_Model/
+│ ├── Fewshot_DNN_Model/
+│ ├── Zeroshot_Model/
+│ └── Data_Cleaned_MOL_DNN_Model/
  
 
 
