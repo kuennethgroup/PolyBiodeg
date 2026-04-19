@@ -106,6 +106,12 @@ This project implements a **three-stage transfer learning pipeline** to predict 
 
 ## ⚙️ 1. Data Preprocessing & Input Engineering
 
+- Organic Molecule Biodegradation data: 1700 Organic molecule data points \cite{Huang2022}:  https://pubs.acs.org/doi/10.1021/acs.est.2c01764
+https://drive.google.com/file/d/1epl1Kskq8Nua8U1f-XNlBXQ6qhSD_cXo/view?usp=drive_link
+- Polymer experimental biodegradation data: 80 experimental polymer data points \cite{Lin2025} : https://orcid.org/0000-0002-5683-5117
+https://drive.google.com/file/d/1epl1Kskq8Nua8U1f-XNlBXQ6qhSD_cXo/view?usp=drive_link
+- For data preprocesiing steps please follow the Suuporting information documents: /home/sunil/am2/PolyBiodeg_Ready/Supporting information/AM_Structral Clustering and reevalutaion of Tranfer learnig Mehod_Biodegradabilty.pdf
+
 - **Molecular Fingerprints (600D):**
   - Polymer repeat units converted into fingerprint vectors (RDKit / custom encoding).
   
